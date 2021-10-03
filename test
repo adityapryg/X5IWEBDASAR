@@ -1,3 +1,10 @@
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Latihan 1&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
 &lt;h2 align=&quot;center&quot;&gt;Biodata Diri&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;NPM:&lt;/strong&gt; 201943502046&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NAMA:&lt;/strong&gt; ADITYA PRAYOGA&lt;/p&gt;
@@ -5,3 +12,5 @@
 &lt;p&gt;&lt;strong&gt;TELP:&lt;/strong&gt; 08118228827&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AGAMA:&lt;/strong&gt; ISLAM&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;JENIS KELAMIN:&lt;/strong&gt; LAKI-LAKI&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
