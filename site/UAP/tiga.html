@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiga</title>
+</head>
+<body>
+<main id="main"></main>
+<script>
+    let input  = prompt("Masukan Angka");
+    let main   = document.getElementById('main');
+    let append = node => main.appendChild(node);
+
+    if (input != null) {
+        for (let i = 1; i <= input; i++) {
+            let button = document.createElement("button");
+            if (i % 15 == 0) {
+                button.innerHTML = 'Aditya Prayoga'
+                append(button);
+            } else if (i % 3 == 0) {
+                button.innerHTML = 'X5I';
+                append(button);
+            } else if (i % 5 == 0){
+                button.innerHTML = '201943502046';
+                append(button);
+            } else {
+                button.innerHTML = 'Pemrograman Web Dasar';
+                append(button);
+            }
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+table {
+    border: 0;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.title-1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+}
+.title-2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: gray;
+}
+.input-nilai {
+    width: 100px;
+}
+.w-100 {
+    width: 100%;
+}

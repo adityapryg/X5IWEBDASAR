@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SATU</title>
+    <style>
+        @font-face {
+            font-family: Arial, Geneva, Helvetica, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #008102;
+            color: white;
+            text-align: center;
+            padding-left: 130px;
+            padding-right: 130px;
+            height: 200px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+        .tiket {
+            padding: 10px;
+        }
+
+        .header-tiket {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header-tiket-item {
+            height: 60px;
+        }
+
+        .title {
+            text-transform: uppercase;
+        }
+
+        .logo {
+            height: 100px;
+        }
+
+        .sidebar {
+            background-color: lightgray;
+            font-weight: bold;
+            width: 25%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+        .tiket {
+            width: 75%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+        .p-2 {
+            padding: 0.50rem;
+        }
+
+        .ml-5 {
+            margin-left: 1.25rem;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .w-25 {
+            width: 25%;
+        }
+
+        .w-75 {
+            width: 75%;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .odd {
+            background-color: skyblue;
+        }
+
+        .dotted {
+            border: 2px dotted black;
+        }
+
+        main {
+            display: flex;
+        }
+
+        footer {
+            color: white;
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img class="logo" src="./img/logo-unindra.png" alt="logo-unindra">
+    <div>
+        <h2 class="title">Universitas<br>Indraprasta PGRI</h2>
+        <p>Jl. Nangka No. 58 Tanjung Barat - Jaksel</p>
+    </div>
+    <img class="logo" src="./img/logo-unindra.png" alt="logo-unindra">
+</header>
+<main>
+    <div class="sidebar">
+        <p class="ml-5">Tiket Kereta Api</p>
+        <ol>
+            <li><a href="#">Jakarta-Bandung</a></li>
+            <li><a href="#">Jakarta-Surabaya</a></li>
+            <li><a href="#">Jakarta-Semarang</a></li>
+        </ol>
+    </div>
+    <div class="tiket">
+        <div class="header-tiket">
+            <div class="w-25 dotted p-2 header-tiket-item">
+                <img width="50%" src="./img/kereta.png" alt="kereta">
+            </div>
+            <div class="w-75 dotted p-2 header-tiket-item">
+                <h2 class="center">TIKET KERETA API JAKARTA-BANDUNG</h2>
+            </div>
+        </div>
+        <table class="w-100">
+            <thead class="center bold">
+            <tr>
+                <th>JENIS LAYANAN</th>
+                <th>Jam Keberangkatan</th>
+                <th>Harga</th>
+            </tr>
+            </thead>
+            <tr class="odd">
+                <td>VIP</td>
+                <td>13.00 WIB</td>
+                <td>Rp250.000</td>
+            </tr>
+            <tr class="even">
+                <td>Bisnis</td>
+                <td>10.00 WIB</td>
+                <td>Rp150.000</td>
+            </tr>
+            <tr class="odd">
+                <td>Ekonomi</td>
+                <td>11.00</td>
+                <td>Rp75.000</td>
+            </tr>
+        </table>
+    </div>
+</main>
+<footer>
+    <p>Created By@ Nama: Aditya Prayoga NPM: 201943502046</p>
+</footer>
+</body>
+</html>
